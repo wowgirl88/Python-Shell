@@ -14,11 +14,7 @@ Key features:
 #### Compilation
 Build the shared library with:
 ```bash
-gcc -shared -o shell.so shell.c \
-    -I/usr/include/python3.12/ \
-    -L/usr/lib/ \
-    -lpython3.12 -ldl -lm \
-    -fPIC
+make
 ```
 
 Requirements:
